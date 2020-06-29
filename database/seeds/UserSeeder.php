@@ -11,11 +11,10 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $password = bcrypt('12345678');
+        $password = bcrypt('testtest');
 
         $users = [
-            //['name' => 'test', 'password' => $password, 'email' => 'test@test.com'],
-            ['name' => 'Abdullah Can', 'password' => $password, 'email' => 'abdullahcant78@gmail.com'],
+            ['name' => 'test', 'password' => $password, 'email' => 'test@test.com'],
         ];
 
         DB::table('users')->insert($users);
