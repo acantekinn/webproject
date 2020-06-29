@@ -11,10 +11,10 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $password = bcrypt('testtest');
+        $password = bcrypt('12345678');
 
         $users = [
-            ['name' => 'test', 'password' => $password, 'email' => 'test@test.com'],
+            //['name' => 'test', 'password' => $password, 'email' => 'test@test.com'],
             ['name' => 'Abdullah Can', 'password' => $password, 'email' => 'abdullahcant78@gmail.com'],
         ];
 
