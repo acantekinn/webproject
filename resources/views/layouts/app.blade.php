@@ -40,7 +40,7 @@
                     <p>©2020 All rights reserved</p>
                 </div>
                 <div class="col-md-4 footer-nav animated fadeInUp">
-                    <h4>Menu —</h4>
+                    <h4>Menu</h4>
                     
                     <div class="col-md-6">
                         <ul class="pages">
@@ -57,15 +57,15 @@
                 <div class="col-md-2 footer-social animated fadeInDown">
                     <h4>Follow Me</h4>
                     <ul>
-                        <li><a href="https://www.facebook.com/abdullahcan.tekin.5243" target="_blank">Facebook</a></li>
-                        <li><a href="https://twitter.com/acantekinn" target="_blank">Twitter</a></li>
-                        <li><a href="https://www.instagram.com/acantekinn/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/abdullahcan.tekin.5243" target="_blank"><i>Facebook</i></a></li>
+                        <li><a href="https://twitter.com/acantekinn" target="_blank"><i>Twitter</i></a></li>
+                        <li><a href="https://www.instagram.com/acantekinn/" target="_blank"><i>Instagram</i></a></li>
                     </ul>
                 </div>
                 
             </div>
         </footer>
-        <section style="text-align:center; margin:10px auto;"><p> made by <a href="http://enfoplus.net"> ACT </a></p></section>
+        <section style="text-align:center; margin:10px auto;"><p> <b><i> by </i></b> <a href="http://enfoplus.net"> <b><i>ACT</i></b> </a></p></section>
     
     </div>
 
