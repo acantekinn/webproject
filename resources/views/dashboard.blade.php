@@ -13,8 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <a href="/posts/create" class="btn btn-primary"> Create </a>
+                    
+                    @if(Auth::user()->id == 1)
+                    <a href="/posts/create" class="btn btn-primary"> Create </a> 
+                    @endif
+                    
                     <h3> That's All Your Announcement </h3>
         
                     <table class="table table-striped">

@@ -13,7 +13,7 @@
     <hr>
 
     @if(!Auth::guest())
-        @if(Auth::user()->id == $post->user_id)
+        @if(Auth::user()->id == 1)
         <a href="/posts/{{$post->id}}/edit" class="btn btn-default"> Edit </a>    
 
         {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST', 'class' => 'pull-right']) !!}
