@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     
-                    @if(Auth::user()->id == 1)
+                    @if(Auth::user()->id->$post->id)
                     <a href="/posts/create" class="btn btn-primary"> Create </a> 
                     @endif
                     
